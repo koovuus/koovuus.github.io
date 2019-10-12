@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Kevin Aguyar Brix</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body style="background-color: #E8E8E8">
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">CV</a>
+    <a href="research.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Research</a>
+    <a href="teaching.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Teaching</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Research</h1>
+      <hr>
+      <h4>Published papers</h4>
+        <ol reversed>
+          <li> 
+            K.A. Brix and E. Scarparo: <i>C*-simplicity and representations of topological full groups of groupoids,</i><br/>
+            in Journal of Functional Analysis
+            <a href="https://arxiv.org/abs/1805.06743">[arXiv:1805.06743].</a> 
+          </li>
+          <li> 
+            K.A. Brix and T.M. Carlsen: <i>Cuntz-Krieger algebras and one-sided conjugacy of shift of finite type and their groupoids,</i><br/> 
+            in Journal of the Australian Mathematical Society
+            <a href="https://arxiv.org/abs/1712.00179">[arXiv:1712.00179].</a>
+          </li>
+        </ol>
+      <hr>
+      <h4>Preprints</h4>
+        <ul reversed>
+          <li> K.A. Brix and T.M. Carlsen: <i>C*-algebras, groupoids and covers of one-sided shifts </i>,
+          <a href="https://arxiv.org/abs/1910.01938">[arXiv:1910.01938]</a>. Submitted for publication 2019. </li>
+          <li> K.A. Brix: <i>One-sided conjugacy and the balanced in-split, Preprint 2019.</i> </li>
+        </ul>
+      <hr>
+      <h4>Conference and seminar talks</h4>
+
+        <!-- configurations for the table-->
+        <style>
+          table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            }
+            th, td {
+              padding: 5px;
+              }
+            th {
+              text-align: left;
+            }
+        </style>
+        <!-- Then the table -->
+        <table>
+          <tr>
+            <th>Year</th>
+            <th>Title</th>
+            <th>Event</th>
+            <th>Where</th>
+          </tr>
+          <tr>
+          	<td>2019 October</td>
+          	<td>tba.</td>
+          	<td>Analysis seminar</td>
+          	<td>KU Leuven, Belgium</td>
+          </tr>
+          <tr>
+            <td>2019 January</td>
+            <td>Various *-isomorphisms of (groupoid) C*-algebras</td>
+            <td>Analysis seminar</td>
+            <td>University of Glasgow, Scotland</td>
+          </tr>
+          <tr>
+            <td>2018 December</td>
+            <td>Various *-isomorphisms of (groupoid) C*-algebras</td>
+            <td>Danish Operator Algebra Seminar</td>
+            <td>University of Southern Denmark, Odense, Denmark</td>
+          </tr>
+          <tr>
+            <td>2018 September</td>
+            <td>Symbolic dynamics and operator algebras</td>
+            <td>Operator algebra seminar</td>
+            <td>University of Copenhagen, Denmark</td>
+          </tr>
+          <tr>
+            <td>2018 June</td>
+            <td>C*-simplicity and representations of topological full groups</td>
+            <td>Workshop in operator algebras and dynamics</td>
+            <td>University of the Faroe Islands, the Faroe Islands</td>
+          </tr>
+          <tr>
+            <td>2018 February</td>
+            <td>Modeling symbolic dynamics using C*-algebras</td>
+            <td>Operator algebra seminar</td>
+            <td>University of Wollongong, Australia</td>
+          </tr>
+          <tr>
+            <td>2018 January</td>
+            <td>Modeling finite type symbolic dynamics using C*-algebras</td>
+            <td>Seminar</td>
+            <td>University of Western Sydney, Australia</td>
+          </tr>
+          <tr>
+            <td>2018 May</td>
+            <td>The C*-algebra associated to a symbolic dynamical system</td>
+            <td>Operator algebra research program</td>
+            <td>Universit&aacutet &Aacuteutonoma de Barcelona, Spain</td>
+          </tr>
+          <tr>
+          	<td>2017 September</td>
+          	<td>A groupoid approach to Cuntz-Krieger algebras</td>
+          	<td>PhD seminar</td>
+          	<td>University of Copenhagen</td>
+          </tr>
+        </table>
+    </div>
+  </div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

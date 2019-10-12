@@ -15,7 +15,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   top: 43px;
   bottom: 0;
   height: inherit;
-
+}
 </style>
 <body style="background-color: #E8E8E8;">
 
@@ -30,6 +30,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   </div>
 </div>
 
+<!-- Sidebar -->
+
 
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
@@ -37,49 +39,30 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
 <div class="w3-main" style="margin-left:250px">
 
-<!-- Intro text and image -->
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal" >Kevin Aguyar Brix</h1>
-      <!-- An image: alt specifies alternative text if image does not show-->
-      <img src="billede.jpg" alt="Text if image does not show" width="154" height="202" style="float:right">
-      <hr>
-      <p>
-        I am a Ph.D in pure mathematics from the 
-        <a href="http://sym.math.ku.dk/">Centre for Symmetry and Deformation</a> at the University of Copenhagen, Denmark.
-        My research interests include the study of operator algebras associated to topological dynamical systems and topological groupoids.
-        I am currently employed as an external lecturer at the University of Copenhagen.         
-      </p>
+      <h1 class="w3-text-teal">Teaching</h1>
+        <div>
+          <h4>As a PhD student at the <b>University of Copenhagen</b></h4>
+            <ul>
+              <li>Functional Analysis </li>
+              <li>Differential equations and control theory </li>
+              <li>Numerical Analysis </li>
+            </ul>
+          <h4>As a student I worked as a TA in several courses, including</h4>
+            <ul>
+              <li>Introduction to Mathematics</li>
+              <li>Linear Algebra</li>
+              <li>Analysis 0, 1 and 2</li>
+              <li>Mathematics for Biologists</li>
+              <li>Philosophy of Science</li>
+            </ul>
+
+        </div>
     </div>
   </div>
 
-<!-- Adress for contact information -->
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <address>
-        Kevin Aguyar Brix <br>
-        Department of Mathematical Sciences <br>
-        Universitetsparken 5, 2200 K&oslashbenhavn &Oslash <br>
-        Denmark <br>
-        email: kab[a]math.ku.dk
-      </address>
-    </div>
-  </div>
 
-<!-- Relevant links to other pages -->
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h3 class="w3-text-teal">Find me</h3>    
-      <hr>
-      <p>
-        <ul>
-          <li> <a href="https://arxiv.org/a/brix_k_1.html"> arXiv</a> </li>
-          <li> <a href="https://scholar.google.com/citations?user=9xlASmUAAAAJ&hl=da">Google Scholar</a></li>
-          <li> <a href="http://sym.math.ku.dk/members/?pure=en/persons/394250">University of Copenhagen</a></li>
-        </ul>
-      </p>
-    </div>
-  </div>
 
 
 
@@ -111,16 +94,6 @@ function w3_close() {
   overlayBg.style.display = "none";
 }
 </script>
-
-<!-- A footer with update info -->
-<footer>
-  <div align="left">
-      <hr>
-        <h5>
-          Last updated: 09/2019
-        </h5>
-  </div>
-</footer>
 
 </body>
 </html>
